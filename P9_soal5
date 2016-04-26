@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int tingkatan;
+    int i,j;
+
+    cout<<"Masukan Tingkatan : ";
+    cin>>tingkatan;
+    cout<<endl;
+
+    for(i=0;i<tingkatan;i++){
+        for(j=0;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+return 0;
+}
