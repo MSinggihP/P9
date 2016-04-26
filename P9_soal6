@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int tingkatan,i,j;
+
+    cout<<"Masukan Tingkatan : ";
+    cin>>tingkatan;
+    for(i=tingkatan;i>=1;i--){
+        for(j=i;j>=1;j--){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+return 0;
+}
